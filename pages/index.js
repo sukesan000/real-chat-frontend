@@ -4,9 +4,9 @@ import styles from "../styles/Home.module.css";
 import { useEffect, useState } from "react";
 
 //ローカル環境
-//const backendUrl = "http://localhost:5000";
+//const backendUrl = "localhost:5000";
 //商用環境
-const backendUrl = "http://160.248.8.135:5000";
+const backendUrl = "160.248.0.197:5000";
 
 const socket = io(backendUrl);
 
